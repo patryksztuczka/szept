@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Identity, version, icon, and Sparkle keys are filled in by
+       scripts/build-app.sh from scripts/app-config.sh and Cargo.toml. -->
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>NSSupportsAutomaticGraphicsSwitching</key>
+  <true/>
+  <!-- Set to true for a menu-bar-only app with no Dock icon. -->
+  <key>LSUIElement</key>
+  <false/>
+  <key>NSAudioCaptureUsageDescription</key>
+  <string>Szept listens to your meeting audio to show live captions and translation.</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Szept listens to the microphone to show live captions and translation.</string>
+</dict>
+</plist>
