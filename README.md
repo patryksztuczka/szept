@@ -18,8 +18,8 @@ Rust, [GPUI](https://www.gpui.rs/), and `objc2`, with no webview.
 
 ## Install
 
-There is no download yet: you build the app on your own Mac. It takes about
-ten minutes, mostly the first compile.
+There is no download yet: you build the app on your own Mac. The first build
+takes a few minutes.
 
 ### Requirements
 
@@ -28,7 +28,7 @@ ten minutes, mostly the first compile.
   already have them or full Xcode). Full Xcode is not needed.
 - **Rust**: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`,
   then open a new terminal window.
-- About **8 GB of free disk** for the build folder. You can delete `target/`
+- About **2 GB of free disk** for the build folder. You can delete `target/`
   afterwards.
 - A **Soniox API key** from [console.soniox.com](https://console.soniox.com).
   Soniox bills per hour of streamed audio, and only while Szept is listening.
